@@ -561,7 +561,7 @@ def iiii1IIi ( signum , frame ) :
 def i1Ii1i1I11Iii ( list = False , mini = None , server = None , share = False , simple = False , src = None , timeout = 10 , units = ( 'bit' , 8 ) , version = False ) :
  I1i1i1 = xbmcgui . DialogProgress ( )
  OoO0O00O0oo0O = [ ' ' , ' ' , ' ' ]
- I1i1i1 . create ( Iii1ii1II11i + ' - Powered by SpeedTest.net' , OoO0O00O0oo0O [ 0 ] , OoO0O00O0oo0O [ 1 ] , OoO0O00O0oo0O [ 2 ] )
+ I1i1i1 . create ( Iii1ii1II11i + ' - Ookla speedtest.net' , OoO0O00O0oo0O [ 0 ] , OoO0O00O0oo0O [ 1 ] , OoO0O00O0oo0O [ 2 ] )
  I1i1i1 . update ( 0 , OoO0O00O0oo0O [ 0 ] , OoO0O00O0oo0O [ 1 ] , OoO0O00O0oo0O [ 2 ] )
  if 36 - 36: Oo0ooO0oo0oO + O0 - o00ooo0 - O0 % I1i1iI1i . o0OO0
  if 74 - 74: i11iIiiIii . I1IiiI
@@ -830,7 +830,7 @@ class O0iIiIIIIIii ( xbmcgui . WindowDialog ) :
  def __init__ ( self ) :
   self . imgControl = xbmcgui . ControlImage ( 340 , 210 , 600 , 270 , 'https://www.speedtest.net/result/%s.png' % oo00o0Oo0oo )
   self . addControl ( self . imgControl )
-  self . button0 = xbmcgui . ControlButton ( int ( 340 + 505 ) , int ( 210 + 206 ) , 80 , 50 , "[B]Close[/B]" )
+  self . button0 = xbmcgui . ControlButton ( int ( 340 + 505 ) , int ( 210 + 206 ) , 80 , 50 , "[B]Chiudi[/B]" )
   self . addControl ( self . button0 )
   self . setFocus ( self . button0 )
   if 96 - 96: OoOoOO00
@@ -844,16 +844,16 @@ class O0iIiIIIIIii ( xbmcgui . WindowDialog ) :
    if 20 - 20: i1IIi % OoO0O00 . I1IiiI / Oo0oO0ooo * i11iIiiIii * Oo0ooO0oo0oO
  def saveClose ( self ) :
   OOo = xbmcgui . Dialog ( )
-  i1i11I1I1iii1 = OOo . yesno ( "Save Result" , "Would you like to save a copy of this speed test?" , "" , "" )
+  i1i11I1I1iii1 = OOo . yesno ( "Salva risultato" , "Vuoi salvare il risultato di questo speedtest?" , "" , "" )
   if i1i11I1I1iii1 :
-   self . location = OOo . browse ( 3 , 'Where would you like to save the result?' , 'files' , '' , False , False , '' )
+   self . location = OOo . browse ( 3 , 'Dove vuoi salvare il risultato?' , 'files' , '' , False , False , '' )
    print 'self.location'
    print self . location
    import urllib
    I1iii11 = urllib . URLopener ( )
    I1iii11 . retrieve ( 'https://www.speedtest.net/result/%s.png' % oo00o0Oo0oo , self . location + "%s.png" % oo00o0Oo0oo )
-   OOo . ok ( "Result Saved!" , "'%s.png'" % oo00o0Oo0oo + " was saved to '" + self . location + "'" )
-  OOo . ok ( "Result Saved!" , "The SpeedTest is Finished!" )
+   OOo . ok ( "Risultato salvato!" , "'%s.png'" % oo00o0Oo0oo + " salvato in '" + self . location + "'" )
+  OOo . ok ( "Terminato!" , "Speedtest terminato!" )
   self . close ( )
   if 74 - 74: O0 / i1IIi
   if 78 - 78: OoooooooOO . OoO0O00 + O0OOo - i1IIi
