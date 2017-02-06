@@ -590,10 +590,10 @@ def i1Ii1i1I11Iii ( list = False , mini = None , server = None , share = False ,
   i1iIIi1 = src
   socket . socket = II1III
   if 9 - 9: Oo0Ooo - i11iIiiIii - Oo0ooO0oo0oO * o00ooo0 + O0OOo
- OoO0O00O0oo0O [ 0 ] = 'Retrieving speedtest.net configuration...'
+ OoO0O00O0oo0O [ 0 ] = 'Recupero configurazione da speedtest.net...'
  I1i1i1 . update ( 10 , OoO0O00O0oo0O [ 0 ] , OoO0O00O0oo0O [ 1 ] , OoO0O00O0oo0O [ 2 ] )
  if not simple :
-  Ii11iI1i ( 'Retrieving speedtest.net configuration...' )
+  Ii11iI1i ( 'Recupero configurazione da speedtest.net...' )
  try :
   OOoO = O0oO ( )
  except URLError :
@@ -731,10 +731,10 @@ def i1Ii1i1I11Iii ( list = False , mini = None , server = None , share = False ,
    if 77 - 77: iIii1I11I1II1 . o00 % o00 + i11iIiiIii
  OoO0O00O0oo0O [ 0 ] = OoO0O00O0oo0O [ 1 ]
  OoO0O00O0oo0O [ 1 ] = OoO0O00O0oo0O [ 2 ]
- OoO0O00O0oo0O [ 2 ] = 'Testing download speed...'
+ OoO0O00O0oo0O [ 2 ] = 'Testando le prestazioni in download...'
  I1i1i1 . update ( 50 , OoO0O00O0oo0O [ 0 ] , OoO0O00O0oo0O [ 1 ] , OoO0O00O0oo0O [ 2 ] )
  if not simple :
-  Ii11iI1i ( 'Testing download speed' , end = '' )
+  Ii11iI1i ( 'Testando le prestazioni in download...' , end = '' )
  Oo00o0OO0O00o = i1iI11i1ii11 ( iI1111iiii , simple )
  if not simple :
   Ii11iI1i ( )
@@ -753,10 +753,10 @@ def i1Ii1i1I11Iii ( list = False , mini = None , server = None , share = False ,
    if 27 - 27: Oo0ooO0oo0oO * O0OOo . ooO00oOoo % Oo0oO0ooo * Oo0oO0ooo . i1IIi
  OoO0O00O0oo0O [ 0 ] = OoO0O00O0oo0O [ 1 ]
  OoO0O00O0oo0O [ 1 ] = OoO0O00O0oo0O [ 2 ]
- OoO0O00O0oo0O [ 2 ] = 'Testing upload speed...'
+ OoO0O00O0oo0O [ 2 ] = 'Testando le prestazioni in upload...'
  I1i1i1 . update ( 80 , OoO0O00O0oo0O [ 0 ] , OoO0O00O0oo0O [ 1 ] , OoO0O00O0oo0O [ 2 ] )
  if not simple :
-  Ii11iI1i ( 'Testing upload speed' , end = '' )
+  Ii11iI1i ( 'Testando le prestazioni in upload...' , end = '' )
  O0OOoOOO0oO = oO0OOOO0 ( OOoooO00o0oo0 [ 'url' ] , oOoO0 , simple )
  if not simple :
   Ii11iI1i ( )
