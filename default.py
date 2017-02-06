@@ -627,7 +627,7 @@ def i1Ii1i1I11Iii ( list = False , mini = None , server = None , share = False ,
  else :
   Oo0OO = oO00oOOoooO ( OOoO [ 'client' ] )
   if 96 - 96: OoooooooOO + o0OO0
- OoO0O00O0oo0O [ 2 ] = 'Fornitore servizio internet %(isp)s (%(ip)s)' % OOoO [ 'client' ]
+ OoO0O00O0oo0O [ 2 ] = 'Fornitore servizio internet --> %(isp)s (%(ip)s)' % OOoO [ 'client' ]
  I1i1i1 . update ( 25 , OoO0O00O0oo0O [ 0 ] , OoO0O00O0oo0O [ 1 ] , OoO0O00O0oo0O [ 2 ] )
  if not simple :
   Ii11iI1i ( 'Fornitore servizio internet %(isp)s (%(ip)s)...' % OOoO [ 'client' ] )
